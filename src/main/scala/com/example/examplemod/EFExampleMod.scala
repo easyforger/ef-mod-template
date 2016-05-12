@@ -5,7 +5,7 @@ import net.minecraftforge.fml.common.Mod
 import net.minecraftforge.fml.common.Mod.EventHandler
 import net.minecraftforge.fml.common.event.FMLInitializationEvent
 
-@Mod(modid = EFExampleMod.modId, name = "EF Example Mod", version = "0.3", modLanguage = "scala")
+@Mod(modid = EFExampleMod.modId, name = "EF Example Mod", version = "0.4", modLanguage = "scala")
 object EFExampleMod extends EasyForger {
   final val modId = "EFExampleMod"
 
