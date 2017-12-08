@@ -16,13 +16,13 @@ apply plugin: 'scala'
 apply plugin: 'net.minecraftforge.gradle.forge'
 
 version = "0.1"
-group= "com.yourname.modid" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
+group= "com.yourname.modid"
 archivesBaseName = "modid"
 
 minecraft {
-    version = "1.10.2-12.18.2.2099"
+    version = "1.11.2-13.20.1.2530"
     runDir = "run"
-    mappings = "snapshot_20161103"
+    mappings = "snapshot_20170317"
 }
 
 repositories {
@@ -31,7 +31,7 @@ repositories {
 }
 
 dependencies {
-    compile "com.easyforger:easyforger-core:0.5.1:deobf@jar"
+    compile "com.easyforger:easyforger-core:0.6-1.11.2:deobf@jar"
 }
 
 processResources
